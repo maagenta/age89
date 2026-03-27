@@ -115,7 +115,12 @@ age -d -i key.txt secrets.txt.age
 
 ## Tested
 
-Compiled and tested on Debian 3 (woody) with gcc 2.95.4. Both encryption and decryption worked perfectly, including interoperability with the official `age` tool.
+Compiled and tested on:
+- Debian 3 (woody) / Compiled with gcc 2.95.4
+- OSX Panther 10.3 in powerpc / Compiled with gcc 3.3
+
+
+Both encryption and decryption worked perfectly, including interoperability with the official `age` tool.
 
 ## Limitations
 
